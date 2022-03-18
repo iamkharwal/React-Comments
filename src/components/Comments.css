@@ -1,0 +1,43 @@
+/** @format */
+h1,
+h3 {
+  margin: 0px;
+}
+.container {
+  padding: 10px;
+}
+.comments {
+  padding: 20px;
+  overflow-x: auto;
+  background-color: rgb(208, 208, 208);
+  border-radius: 10px;
+}
+.lists {
+  padding: 0px 10px 0px 10px;
+}
+.reply {
+  padding-left: 40px;
+}
+svg {
+  cursor: pointer;
+}
+
+.border-left {
+  border-left: 4px dotted black;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: grey;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 10px 0px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .reply {
+    padding-left: 20px;
+  }
+}
